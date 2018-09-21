@@ -14,7 +14,7 @@ The application is made in java and is started.
 3. Click on the bot tab inside the Discord applications setting and copy the token. 
 4. Paste the token in the batch file after the jar. ex java -jar VirusTotalBot.jar asdfasdfasdfasdfasdfasdfasdf
 5. Create an account on [VirusTotal](https://www.virustotal.com/#/home/upload).
-6. Copy the [API key](https://www.virustotal.com/#/settings/apikey) and paste it after the Discord token with a space in between.
+6. Copy the [API key](https://www.virustotal.com/#/settings/apikey) and paste it in the LAUNCHER.bat after the Discord token with a space in between.
 
     ex: java -jar VirusTotalBot.jar DiscordBotToken VirusTotalApiKey
 
