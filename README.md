@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+## VirusTotalBot
 
-You can use the [editor on GitHub](https://github.com/Skotizo/VirusTotalBot/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+VirusTotalBot is a java program which connects to Discord to audit URL's. It passivly scans all websites for malware. If malware is found, the bot alerts the call. The bot sends URL's to the [VirusTotal](https://www.virustotal.com/#/home/upload) API which scans the website against around 65 antivirus services. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Requirements 
+-Windows
+-Java
+-Discord
 
-### Markdown
+### Setup
+The application is made in java and is started.
+1. Create a application on the [Discord Website](https://discordapp.com/developers/applications/).
+2. Copy the client id from the applications page and paste it in the client id field on [this website]ttps://discordapi.com/permissions.html). Give the bot admin, then add it to the call of your choice. 
+3. Click on the bot tab inside the Discord applications setting and copy the token. 
+4. Paste the token in the batch file after the jar. ex java -jar VirusTotalBot.jar asdfasdfasdfasdfasdfasdfasdf
+5. Create an account on [VirusTotal](https://www.virustotal.com/#/home/upload).
+6. Copy the [API key](https://www.virustotal.com/#/settings/apikey) and paste it after the Discord token with a space in between. 
+ex java -jar VirusTotalBot.jar asdfasdfasdfasdfasdfasdfasdf qwerqwerqwerqwerqwerqwer
+                                   Discord bot token           VirusTotal API key
+Done!
+Double click the LAUNCHER.bat to start. 
+If working correctly, the bot should show up inside the discord call. type help or ping in the call to test
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Skotizo/VirusTotalBot/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Link to the API's used in the creation of this bot 
+https://github.com/DV8FromTheWorld/JDA
+https://github.com/B-V-R/VirusTotal-public-and-private-API-2.0-implementation-in-pure-Java
