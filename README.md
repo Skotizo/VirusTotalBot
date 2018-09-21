@@ -1,7 +1,7 @@
 ## VirusTotalBot
 
 VirusTotalBot is a java program which connects to Discord to audit URL's. It passivly scans all websites for malware. If malware is found, the bot alerts the call. The bot sends URL's to the [VirusTotal](https://www.virustotal.com/#/home/upload) API which scans the website against around 65 antivirus services. 
-
+[image](VirusTotalBot/VirusTotalBot/Screenshot_3.png)
 ### Requirements 
 
 -Windows
