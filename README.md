@@ -6,7 +6,7 @@ VirusTotalBot is a java program which connects to Discord to audit URL's. It pas
 
 ### Requirements 
 
--Windows
+-Windows/Linux/Mac
 
 -Java
 
